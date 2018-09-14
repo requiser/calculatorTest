@@ -12,10 +12,6 @@ public class CalculatorController {
 
     CalculatorService calculatorService = new CalculatorServiceImpl();
 
-    @RequestMapping("/asd")
-    public String asd(){
-        return "Asd";
-    }
 
 
     @RequestMapping("/add/{number1}/{number2}")
